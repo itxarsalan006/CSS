@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #div {
+            height: 200px;
+            width: 200px;
+            background-color: antiquewhite;
+        }
+
+        #button {
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            padding: 10px 15px 10px 15px;
+        }
+
+        #button1 {
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            padding: 10px 15px 10px 15px;
+            margin: 100px;
+        }
+
+        #button2 {
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            padding: 10px 15px 10px 15px;
+            margin: 100px;
+            border: 5px dotted red;
+            border-radius: 45px;
+        }
+      
+        .div {
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            margin: 10px;
+            border: 5px double red;
+            background-color: rgb(10, 95, 95);
+        }
+        #box1 {
+            box-sizing: border-box;
+        }
+        #box2{
+            box-sizing: content-box;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 01) Create a div with height and width 200px and observe different values in the ox model by inspecting. => id="div" This div -->
+    <!-- 02) Create a button and give 10px padding to the top and buttom and 15px on the sides. =>id"button" Button -->
+    <!-- 03) Add 100px margin to the button on all sides. => id "button1" Button -->
+    <!-- 04) Add dotter border with color red and so much that the button becoes a circle. =>id "button2" Button -->
+    <!-- 05) Create two boxes with different box-sizing values and observe changes in the box model. =>id "box1" id       "box2" Box No:01 & Box No:02 -->
+    <div id="div">This Div</div><hr><hr>
+    <div id="button">Button</div><hr><hr>
+    <div id="button1">Button</div><hr><hr>
+    <div id="button2">Button</div><hr><hr>
+    <div id="box1" class="div">Box No:01</div>
+    <div id="box2" class="div">Box No:02</div>
+
+
+</body>
+</html>
