@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media Queries Properties</title>
+    <style>
+           .box{
+            height: 75px;
+            width: 75px;
+            padding: 5px;
+            background-color: coral;
+           }
+
+           @media screen and (width: 350px;) {
+            .box{
+                border: 20px dashed black;
+                background-color: darkgoldenrod;
+            }
+            
+           }
+
+           .box1{
+            height: 75px;
+            width: 75px;
+            padding: 5px;
+            background-color: rgb(10, 228, 58);
+           }
+
+           @media screen and (min-width : 300px ) {
+            .box1{
+                background-color: yellow;
+                height: 150px;
+                width: 150px;
+                border: 20px dashed black;
+            }
+            }
+
+            .box2{
+            height: 75px;
+            width: 75px;
+            padding: 5px;
+            background-color: rgb(10, 228, 58);
+           }
+
+           @media screen and (max-width : 400px) {
+            .box2{
+                background-color: yellow;
+                height: 150px;
+                width: 150px;
+                border: 20px dashed black;
+            }
+        }
+          
+        .box3{
+            height: 75px;
+            width: 75px;
+            padding: 5px;
+            background-color: rgb(10, 228, 58);
+           }
+
+           @media screen and (max-width : 400px) and (min-width : 350px) {
+            .box3{
+                background-color: yellow;
+                height: 150px;
+                width: 150px;
+                border: 20px dashed black;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">Box</div><hr>
+    <div class="box1">Box</div><hr>
+    <div class="box2">Box</div><hr>
+    <div class="box2">Box</div><hr>
+
+</body>
+</html>
