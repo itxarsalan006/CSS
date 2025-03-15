@@ -1,0 +1,31 @@
+#h1{
+    margin-right: 300px;
+}
+
+#container{
+    height: 200px;
+    width:  500px;
+    background-color: darkgrey;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 5px; 
+    flex-grow: 1;  
+}
+
+#box1{ 
+    background-color: aqua;
+    flex-grow: 2;   
+}
+#box2{ background-color: chocolate;}
+#box3{ background-color: green;}
+#box4{ background-color: gray;}
+
