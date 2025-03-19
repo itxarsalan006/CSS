@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Transform</title>
+    <style>
+          .box{
+            height: 100px;
+            width: 100px;
+            border: 4px solid black;
+            border-radius: 5px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            margin: 10px;
+            text-align: center;
+
+            transition: all 3s ease-in;
+          }
+          #box1{ background-color: chartreuse;}
+          #box2{ background-color: yellow;}
+          #box3{ background-color: red;}
+          #box4{ background-color: blue;}
+          #box5{ background-color: brown;}
+          #box6{ background-color: orange;}
+          #box7{ background-color: palegreen;}
+
+          #box1:hover{
+           transform: rotate(45deg);
+          }
+          #box2:hover{
+           transform: rotate(90deg);
+          }
+          #box3:hover{
+           transform: rotate(180deg);
+          }
+          #box4:hover{
+           transform: rotate(360deg);
+          }
+          #box5:hover{
+           transform: rotatex(45deg);
+          }
+          #box6:hover{
+           transform: rotatey(45deg);
+          }
+          #box7:hover{
+           transform: rotatez(45deg);
+          }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Rotate:45</div>
+    <div id="box2" class="box">Rotate:90</div>
+    <div id="box3" class="box">Rotate:180</div>
+    <div id="box4" class="box">Rotate:360</div>
+    <br><br>
+    <div id="box5" class="box">Rotate: X-axis</div>
+    <div id="box6" class="box">Rotate: Y-axis</div>
+    <div id="box7" class="box">Rotate: Z-axis</div>
+</body>
+</html>

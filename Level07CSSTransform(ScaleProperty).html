@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Transform(ScaleProperty)</title>
+    <style>
+          .box{
+            height: 100px;
+            width: 100px;
+            border: 4px solid black;
+            border-radius: 5px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            margin: 10px;
+            text-align: center;
+
+            transition: all 3s ease-in;
+          }
+          #box1{ background-color: chartreuse;}
+          #box2{ background-color: yellow;}
+          #box3{ background-color: red;}
+          #box4{ background-color: blue;}
+          #box5{ background-color: brown;}
+          
+
+          #box1:hover{
+           transform: scale(0.5);
+          }
+          #box2:hover{
+           transform: scale(2);
+          }
+          #box3:hover{
+           transform: scale(4);
+          }
+          #box4:hover{
+           transform: scalex(4);
+          }
+          #box5:hover{
+           transform: scaley(4);
+          }
+          
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Scale:0.5</div>
+    <div id="box2" class="box">Scale:2</div>
+    <div id="box3" class="box">Scale:4</div>
+    <br><br>
+    <div id="box4" class="box">Scale: X-axis</div>
+    <div id="box5" class="box">Scale: Y-axis</div>
+</body>
+</html>

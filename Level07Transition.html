@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition </title>
+    <style>
+           .button{
+                   height: 20px;
+                   width: 150px;
+                   background-color: tomato;
+                   border: 2px solid black;
+                   border-radius: 10px;
+
+                   transition-property: all;
+                   transition-duration: 4s;
+                   transition-timing-function: ease-in-out;
+                   transition-delay: 1s;
+                /* 
+                   Transition Shorthand : TransitionProperty TransitionDuration TransitionTimingFunction TransitionDelay
+                   transition: all 3s ease-in-out 1s;
+                */
+           }
+           .button:hover{
+                   height: 25px;
+                   width: 200px;
+                   background-color: gold;
+            }
+            .button:active{
+                   height: 30px;
+                   width: 230px;
+                   background-color: palevioletred;
+            }
+    </style>
+</head>
+<body>
+    <button class="button">Click Me</button>
+</body>
+</html>

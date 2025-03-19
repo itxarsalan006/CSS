@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Level 07 Task</title>
+    <style>
+        #progresive_box{  
+            background-color: bisque;
+             height: 50px;
+              width: 80%;
+               border: 3px solid black;
+                border-radius: 10px;
+                margin-left: 50px; 
+            }
+
+        #progresive_bar{
+            background-color: gold;
+            height: 100%;
+            border-radius: 10px;
+
+            animation: progresive_bar 5s;
+
+        }
+
+       @keyframes progresive_bar{
+        0%{width: 0%;}
+        90%{width: 90%;}
+        95%{width: 70%;}
+        100%{width: 100%;}
+       }
+
+    </style>
+</head>
+<body>
+     <div id="progresive_box">
+        <div id="progresive_bar"></div>
+     </div>
+
+     </div>
+</body>
+</html>
